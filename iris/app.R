@@ -5,8 +5,7 @@ ui <- fluidPage(
     radioButtons(inputId = "xaxis",
                  label = "Select variable for x axis",
                  choices = c("Petal width" = "Petal.Width" ,
-                             "Sepal width" = "Sepal.Width"),
-                 inline = TRUE),
+                             "Sepal width" = "Sepal.Width")),
     plotOutput("plot")
 
 )
